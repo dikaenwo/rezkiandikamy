@@ -2,7 +2,7 @@
 
 import { courses } from "@/contents/courses";
 import Image from "next/image";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeInUp, staggerContainer, cardHoverSmall } from "@/utils/animations";
 
