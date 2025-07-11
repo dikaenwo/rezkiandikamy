@@ -23,7 +23,7 @@ export default function Courses() {
           initial="initial"
           animate="animate"
         >
-          {courses.map((course, index) => (
+          {courses.map((course) => (
             <motion.article
               key={course.title}
               className="bg-white dark:bg-dark/50 rounded-lg shadow-md p-6"
